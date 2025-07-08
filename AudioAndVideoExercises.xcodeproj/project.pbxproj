@@ -106,11 +106,15 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6A47443D2DCECF83001C5095 /* AudioAndVideoExercisesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = AudioAndVideoExercisesTests;
 			sourceTree = "<group>";
 		};
 		6A4744472DCECF83001C5095 /* AudioAndVideoExercisesUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = AudioAndVideoExercisesUITests;
 			sourceTree = "<group>";
 		};
@@ -439,13 +443,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AudioAndVideoExercises/Pods-AudioAndVideoExercises-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AudioAndVideoExercises/Pods-AudioAndVideoExercises-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
